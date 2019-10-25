@@ -27,7 +27,8 @@ Pod::Spec.new do |spec|
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
-  spec.source       = { :git => "https://github.com/rudoapps/RudoModules", :tag => "0.1" }
+  spec.source       = { :git => "https://github.com/rudoapps/RudoModules", :branch => "master",
+  :tag => spec.version.to_s }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
